@@ -73,6 +73,8 @@ class Queue:
 		return self._size
 
 	def _print_queue(self):
+		if self.size == 0:
+			return '<<'
 		queue_string_print = '<'
 		current_cell = self._first_element
 		while current_cell.next is not None:
