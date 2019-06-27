@@ -48,7 +48,7 @@ for c in range(10):
     dq.add_tail(c)
 # <9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9>
 ```
-**Remove**
+**Remove**  
 &nbsp; The remove method return the removed item. You can also remove from head or tail
 ``` python
 ## Remove from head
