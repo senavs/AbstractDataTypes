@@ -70,9 +70,16 @@ class Queue:
 	@property
 	def size(self):
 		return self._size
-	
-	def __str__(self):
-		return ''
 
+	def _print_queue(self):
+		queue_string_print = '<'
+		current_cell = self._first_element
+		while current_cell.next is not None:
+			queue_string_print += '%s, ' % current_cell.value
+			current_cell = current_cell.next
+		queue_string_print += '%s' % current_cell.value
+		queue_string_print += '<'
+		return queue_string_print
+	
 	def __repr__(self):
-		return ''
+		return self._print_queue()
