@@ -40,7 +40,7 @@ class Queue:
 
 	def enqueue(self, data):
 		if self.full():
-			raise Full("Queue is already full.")
+			raise Full("Queue is full.")
 		
 		new_cell = Cell(data)
 		if self.size == 0:
@@ -53,7 +53,7 @@ class Queue:
 
 	def dequeue(self):
 		if self.empty():
-			raise Empty('Queue is already empty')
+			raise Empty('Queue is empty')
 
 		removed_cell = self._first_element.value
 		if self.size == 1:
