@@ -1,6 +1,6 @@
 class Cell:
 
-    def __init__s(self, data):
+    def __init__(self, data):
         self.value = data
         self.left = None
         self.right = None
