@@ -1,8 +1,8 @@
 class QueueException(Exception):
-	pass
+    pass
 
 class Empty(QueueException):
-	pass
+    pass
 
 class Full(QueueException):
-	pass
+    pass
