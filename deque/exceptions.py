@@ -1,8 +1,8 @@
 class DequeException(Exception):
-	pass
+    pass
 
 class Empty(DequeException):
-	pass
+    pass
 
 class Full(DequeException):
-	pass
+    pass
