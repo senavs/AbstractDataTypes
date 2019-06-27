@@ -1,6 +1,7 @@
 from .exceptions import Full, Empty
 from .cell import Cell
 
+
 class Queue:
 
 	def __init__(self, data=[], max_size=0):
