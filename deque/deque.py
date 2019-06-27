@@ -46,12 +46,27 @@ class Deque:
     def _remove(self, position):
         if self.empty():
             raise Empty("Deque is empty.")
+        
+        if self.size == 1:
+            removed_cell = self._head.value
+            self._head = None
+            self._tail = None
+        elif position == 'head':
+            removed_cell = self._head.value
+            self._head.right.left = None
+            self._head = self._head.right
+        else:
+            removed_cell = self._tail.value
+            self._tail.left.right = None
+            self._tail = self._tail.left
+        self._size -= 1
+        return removed_cell
 
     def remove_head(self):
-        pass
+        return self._remove('head')
 
-    def remove_rail(self):
-        pass
+    def remove_tail(self):
+        return self._remove('tail')
 
     @property
     def max_size(self):
@@ -68,3 +83,18 @@ class Deque:
     @property
     def tail(self):
         return self._tail
+
+    def _print_deque(self):
+        if self.size == 0:
+            return '<>'
+        deque_string_print = '<'
+        current_cell = self._head
+        while current_cell.right is not None:
+            deque_string_print += '%s, ' % current_cell.value
+            current_cell = current_cell.right
+        deque_string_print += '%s' % current_cell.value
+        deque_string_print += '>'
+        return deque_string_print
+
+    def __repr__(self):
+        return self._print_deque()
