@@ -1,5 +1,9 @@
 # Abstract Data Types
 
+<p align="center">
+  <img src="https://cdn.lynda.com/course/779747/779747-636918703200751022-16x9.jpg" width=500>
+</p>
+
 ## About the project
 &nbsp; **Hello World!**. Welcome to my Abstract Data Types GitHub Portfolio. This project it's just me **reinventing the wheel**. 
 In others words, It's some Abstract Data Types implemented using Python from scratch.
@@ -13,6 +17,3 @@ In others words, It's some Abstract Data Types implemented using Python from scr
   An improvement of Queue Data Type which allows add to and remove from both sides.
 - [Stack](https://github.com/senavs/AbstractDataTypes/tree/master/stack) - 
   Abstract Data Type with **F**irst **I**n **L**ast **O**ut rule.
-
-## Developed by
-@senavs
