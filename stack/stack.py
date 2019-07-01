@@ -22,7 +22,9 @@ class Stack:
             return self.size == self.max_size
 
     def peek(self):
-        return self._top
+        if self.size == 0:
+            return None
+        return self._top.value
 
     def push(self, data):
         if self.full():
