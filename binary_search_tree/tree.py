@@ -1,3 +1,6 @@
+from .node import Node
+
+
 class Tree(object):
     
     def __init__(self, data):
