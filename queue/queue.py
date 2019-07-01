@@ -88,3 +88,6 @@ class Queue:
     
     def __repr__(self):
         return self._print_queue()
+
+    def __len__(self):
+        return self.size

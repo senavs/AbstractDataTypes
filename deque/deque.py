@@ -98,3 +98,6 @@ class Deque:
 
     def __repr__(self):
         return self._print_deque()
+
+    def __len__(self):
+        return self.size

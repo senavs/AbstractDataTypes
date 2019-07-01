@@ -72,3 +72,6 @@ class Stack:
 
     def __repr__(self):
         return self._print_stack()
+
+    def __len__(self):
+        return self.size
