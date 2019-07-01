@@ -23,7 +23,9 @@ class Queue:
             return self.size == self.max_size
 
     def peek(self):
-        return self._first_element
+        if self.size == 0:
+            return None
+        return self._first_element.value
 
     def find(self, data):
         if data == self._first_element.value:
