@@ -1,8 +1,8 @@
 class LinkedListException(Exception):
-	pass
+    pass
 
 class Full(LinkedListException):
-	pass
+    pass
 
 class Empty(LinkedListException):
-	pass
+    pass
