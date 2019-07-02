@@ -5,11 +5,14 @@ from .doubly_linked_list_iterator import DoublyLinkedListIterator
 
 class DoublyLinkedList:
 
-    def __init__(self, max_size=0):
+    def __init__(self, data=[], max_size=0):
         self._beginning = None
         self._end = None
         self._size = 0
         self._max_size = max_size
+
+        for data_item in data:
+            self.append(data_item)
 
     def empty(self):
         return self.size == 0
