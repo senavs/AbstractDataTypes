@@ -98,6 +98,21 @@ class DoublyLinkedList:
     @property
     def max_size(self):
         return self._max_size
+
+    def _print_doubly_linked_list(self):
+        if self.size == 0:
+            return '[]'
+        dll_string_print = '['
+        current_cell = self._beginning
+        while current_cell.next is not None:
+            dll_string_print += '%s, ' % current_cell.value
+            current_cell = current_cell.next
+        dll_string_print += '%s' % current_cell.value
+        dll_string_print += ']'
+        return dll_string_print
     
     def __len__(self):
         return self.size
+
+    def __repr__(self):
+        return self._print_doubly_linked_list()
