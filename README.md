@@ -21,3 +21,5 @@ In others words, It's some Abstract Data Types implemented using Python from scr
   A list abstract data type which each cell can only access the next cell.
 - [Doubly Linked List](https://github.com/senavs/AbstractDataTypes/tree/master/doubly_linked_list) - 
   A list abstract data type which each cell can access the next and the preivious cell. Easy to search, insert and remove elements.
+- [Binary Search Tree](https://github.com/senavs/AbstractDataTypes/tree/master/binary_search_tree) - 
+  Abstract data type based on Nodes which the left nodes have a lower key_id than the parent node and the right nodes have higher key_id.
