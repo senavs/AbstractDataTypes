@@ -36,7 +36,7 @@ class LinkedList:
             new_cell.previous = self._end
             self._end = new_cell
         else:
-            current_cell = self.search(pos, True)
+            current_cell = self.search(pos, return_cell_class=True)
             new_cell.previous = current_cell.previous
             current_cell.previous.next = new_cell
             new_cell.next = current_cell
@@ -51,7 +51,9 @@ class LinkedList:
         pass
 
     def replace(self, data, pos):
-        pass
+        current_cell = self.search(pos, return_cell_class=True)
+        current_cell.value = data
+        return True
 
     def search(self, pos, return_cell_class=False):
         if pos >= self.size or pos < 0:
