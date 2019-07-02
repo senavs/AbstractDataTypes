@@ -17,3 +17,7 @@ In others words, It's some Abstract Data Types implemented using Python from scr
   An improvement of Queue Data Type which allows add to and remove from both sides.
 - [Stack](https://github.com/senavs/AbstractDataTypes/tree/master/stack) - 
   Abstract Data Type with **F**irst **I**n **L**ast **O**ut rule.
+- [Linked List](https://github.com/senavs/AbstractDataTypes/tree/master/linked_list) - 
+  A list abstract data type which each cell can only access the next cell.
+- [Doubly Linked List](https://github.com/senavs/AbstractDataTypes/tree/master/doubly_linked_list) - 
+  A list abstract data type which each cell can access the next and the preivious cell. Easy to search, insert and remove elements.
