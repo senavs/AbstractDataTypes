@@ -103,23 +103,33 @@ class DoublyLinkedList:
     def max_size(self):
         return self._max_size
 
-    def _print_doubly_linked_list(self):
+    def print(self):
         if self.size == 0:
             return '[]'
-        dll_string_print = '['
-        current_cell = self._beginning
-        while current_cell.next is not None:
-            dll_string_print += '%s, ' % current_cell.value
-            current_cell = current_cell.next
-        dll_string_print += '%s' % current_cell.value
-        dll_string_print += ']'
-        return dll_string_print
+        string = '['
+        for item in self:
+            string += '%s, ' % item
+        return string[:-2] + ']'
+
+    def rprint(self):
+        if self.size == 0:
+            return '[]'
+        string = '['
+        for item in reversed(self):
+            string += '%s, ' % item
+        return string[:-2] + ']'
     
     def __len__(self):
         return self.size
 
     def __repr__(self):
-        return self._print_doubly_linked_list()
+        return self.print()
 
     def __iter__(self):
         return DoublyLinkedListIterator(self._beginning)
+
+    def __reversed__(self):
+        reversed_list = DoublyLinkedList()
+        for item in self:
+            reversed_list.insert(item, 0)
+        return reversed_list
