@@ -1,5 +1,6 @@
 from .cell import Cell
 from .exceptions import *
+from .doubly_linked_list_iterator import DoublyLinkedListIterator
 
 
 class DoublyLinkedList:
@@ -116,3 +117,6 @@ class DoublyLinkedList:
 
     def __repr__(self):
         return self._print_doubly_linked_list()
+
+    def __iter__(self):
+        return DoublyLinkedListIterator(self._beginning)
