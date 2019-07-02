@@ -99,3 +99,5 @@ class DoublyLinkedList:
     def max_size(self):
         return self._max_size
     
+    def __len__(self):
+        return self.size
