@@ -12,15 +12,49 @@ This abstract data type is implemented with three methods:
 &nbsp; One great exemple of Stack is in a [math expression compiler calculator](https://github.com/senavs/MathExpressionCompiler). [Queue](https://github.com/senavs/AbstractDataTypes/tree/master/queue) is also used in this process, but stack presence is essential.
 
 ## How to use?
-** Import ** 
+**Import**  
 ``` python
 from AbstractDataTypes import Stack
 ```
-** Create a Stack Instance ** 
+
+**Create a Stack Instance** 
 &nbsp; *max_size* specific the how many elements Queue can have. *Stack(max_size=0)* or *Stack()* create a ilimited stack.  
 &nbsp; You can also initialize Stack with values, just passing an **__ iter __** object.
 ``` python
 s = Stack()
+print(s)
+# <|
+
 s = Stack([0, 2, 4, 6, 8])
+print(s)
 # <8, 6, 4, 2, 0|
+```
+
+**PUSH method** 
+``` python
+s.push(10)
+print(s)
+# <10, 8, 6, 4, 2, 0|
+```
+
+**POP method** 
+``` python
+poped_item_1 = s.pop()
+print(poped_item_1)
+# 10
+
+poped_item_2 = s.pop()
+print(poped_item_2)
+# 8
+
+print(s)
+# <6, 4, 2, 0|
+```
+
+**PEEK method**
+``` python
+print(s.peek())
+# 6
+print(s)
+# <6, 4, 2, 0|
 ```
