@@ -1,5 +1,10 @@
 # Stack
 
+<p align="center">
+  <img src="https://www.ambrishontech.com/wp-content/uploads/2018/01/stack_representation.jpg" width=250>
+</p>
+
+
 ## What is that?
 &nbsp; Stack is an abstract data type that serves as a collection of elements.
 To keep the order as a real stack, **LIFO** (**L**ast **I**n **F**irst **O**It) rule is followed. 
