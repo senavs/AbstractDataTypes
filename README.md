@@ -13,6 +13,8 @@ In others words, It's some Abstract Data Types implemented using Python from scr
 ## Projects
 - [Queue](https://github.com/senavs/AbstractDataTypes/tree/master/queue) - 
   Abstract Data Type with **F**irst **I**n **F**irst **O**ut rule.
+- [Circular Queue](https://github.com/senavs/AbstractDataTypes/tree/master/circular_queue) - 
+  A different Queue implementation which uses the modulo operator instead of Cell class.
 - [Deque](https://github.com/senavs/AbstractDataTypes/tree/master/deque) - 
   An improvement of Queue Data Type which allows add to and remove from both sides.
 - [Stack](https://github.com/senavs/AbstractDataTypes/tree/master/stack) - 
