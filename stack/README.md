@@ -13,6 +13,14 @@ This abstract data type is implemented with three methods:
 - **POP** - Remove elements at the top of the stack and return them.  
 - **PEEK** - Return the element at the top of the list without *pop* it.  
 
+## Complexity
+| Algorithm | Average | Worst case |
+| -- | -- | -- |
+| Memory Space | O(*n*) | O(*n*) |
+| Search | -- | -- |
+| Insert | O(1) | O(1) |
+| Delete | O(1) | O(1) |
+
 ## Where to use it?
 &nbsp; One great exemple of Stack is in a [math expression compiler calculator](https://github.com/senavs/MathExpressionCompiler). [Queue](https://github.com/senavs/AbstractDataTypes/tree/master/queue) is also used in this process, but stack presence is essential.
 
