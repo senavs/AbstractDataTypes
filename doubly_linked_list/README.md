@@ -6,8 +6,11 @@
 
 
 ## What is that?
+&nbsp; A Doubly Linked List is the same as the [Linked List](https://github.com/senavs/AbstractDataTypes/edit/master/linked_list) when the subject is **implementation**, but, one attribute can make this abstract data type more efficient. 
+&nbsp; Now, the list has an attribute point to the last element, which facilitates the **insert** and **reversed** methods.
 
 ## What is that?
+&nbsp; The uses of a Doubly Linked List are the same as the [Linked List](https://github.com/senavs/AbstractDataTypes/edit/master/linked_list), but more efficient. 
 
 ## Complexity
 | Algorithm | Average | Worst case |
