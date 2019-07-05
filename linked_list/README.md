@@ -1,5 +1,10 @@
 # LinkedList
 
+<p align="center">
+  <img src="https://miro.medium.com/max/1200/1*iMYmkYDCSrXXdwpbqm-ekA.jpeg" width=500>
+</p>
+
+
 ## What is that?
 
 ## What is that?
