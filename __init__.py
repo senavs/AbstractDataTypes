@@ -1,4 +1,5 @@
 from .queue.queue import Queue
+from .circular_queue.circular_queue import CircularQueue
 from .deque.deque import Deque
 from .stack.stack import Stack
 from .linked_list.linked_list import LinkedList
