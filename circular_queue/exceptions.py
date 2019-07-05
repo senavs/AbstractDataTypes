@@ -1,8 +1,8 @@
 class CircularQueueException(Exception):
-	pass
+    pass
 
 class Full(CircularQueueException):
-	pass
+    pass
 
 class Empty(CircularQueueException):
-	pass
+    pass
