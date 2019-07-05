@@ -10,6 +10,15 @@
 ## What is that?
 
 ## Complexity
+| Algorithm | Average | Worst case |
+| -- | -- | -- |
+| Memory Space | O(*n*) | O(*n*) |
+| Search | O(*n*) | O(*n*) |
+| Insert | O(*n*) | O(*n*) |
+| Insert Index 0 | O(1) | O(1) |
+| Append | O(1) | O(1) |
+| Remove | O(*n*) | O(*n*) |
+| Reverse | O(*n*) | O(*n*) |
 
 ## How to use?
 **Import**
