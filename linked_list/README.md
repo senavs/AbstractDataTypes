@@ -6,8 +6,11 @@
 
 
 ## What is that?
+&nbsp; A linked list is a sequence data structure, which connects elements, called **Cell**s. Each Cells/Nodes are linked to the next element by pointers, but, the last element, is linked to None.  
+&nbsp; The worst thing in LinkedList is the linear management. In other words, if you want to access the last element in the list, you'll have to pass through all the others elements, like the image above.
 
-## What is that?
+## Where to use it?
+&nbsp; You can use a LinkedList as a Array, but if you'll need to access elements after the first element, I'll recoment a [DoublyLinkedList](https://github.com/senavs/AbstractDataTypes/edit/master/doubly_linked_list/). A LinkedList is efficient when is used as a [Queue](https://github.com/senavs/AbstractDataTypes/edit/master/queue/), which complexity will be O(1) for insert and remove element from the list.
 
 ## Complexity
 | Algorithm | Average | Worst case |
