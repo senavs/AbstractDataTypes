@@ -3,7 +3,7 @@ from .node import Node
 
 class Tree(object):
     
-    def __init__(self, **data):
+    def __init__(self, data={}):
         self.root = None
 
         for key, value in data.items():
