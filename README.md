@@ -17,6 +17,8 @@ In others words, It's some Abstract Data Types implemented using Python from scr
   A different Queue implementation which uses the modulo operator instead of Cell class.
 - [Deque](https://github.com/senavs/AbstractDataTypes/tree/master/deque) - 
   An improvement of Queue Data Type which allows add to and remove from both sides.
+- [Dequeued Queue](https://github.com/senavs/AbstractDataTypes/tree/master/dequeued_queue) - 
+  A Deque with new feature. It'll remove an element when if full, instead of raise an error.
 - [Stack](https://github.com/senavs/AbstractDataTypes/tree/master/stack) - 
   Abstract Data Type with **F**irst **I**n **L**ast **O**ut rule.
 - [Linked List](https://github.com/senavs/AbstractDataTypes/tree/master/linked_list) - 
