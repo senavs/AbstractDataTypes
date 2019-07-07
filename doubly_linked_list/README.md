@@ -86,9 +86,10 @@ print(dll.search(4))
   # [9, 8, 7, 6, 5, 11, 4, 3, 2, 1]
   ```
   
-  - **Reversed list**
+  - **Reversed list**    
+  ###### NOTE: dll.reverse() returns a new reversed DoublyLinkedList object, without inplace. But reversed(dll) will return a reversed DoublyLinkedListIterator and no inplace.
   ``` python
-  reversed_dll = reversed(dll)
+  reversed_dll = dll.reverse()
   print(dll)
   # [9, 8, 7, 6, 5, 11, 4, 3, 2, 1]
   print(reversed_dll)
