@@ -6,7 +6,7 @@
 
 ## About the project
 &nbsp; **Hello World!**. Welcome to my **Abstract Data Types** GitHub Portfolio. This project it's just me **reinventing the wheel**. 
-In others words, It's some Abstract Data Types implemented using Python from scratch.
+In others words, It's some Abstract Data Types implemented using Python from scratch.  
 &nbsp; There are documentations, exemplos and the code. You can also download, use or even, improve them.  
 &nbsp; That is it! :D
 
