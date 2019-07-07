@@ -3,7 +3,7 @@
 ## What is that?
 &nbsp; A Dequeued Queue is an extension of [Deque](https://github.com/senavs/AbstractDataTypes/tree/master/deque) but with a new feature.
 Instead of raise an exception when the colloction is full, it'll remove and return the firts element in the other side.  
-&nbsp; Eg: If the DequeuedQueue if <1, 2, 3, 4, 5> and you want to add the element 6 to the head (*add_head* method), this method will return the number 5 and add 6 to head. The collection will like that: <6, 1, 2, 3, 4>. The same occurs with *add_tail*, but it'll return the firts element of the Dequeued Queue and add to the tail.
+&nbsp; Eg: If the DequeuedQueue is <1, 2, 3, 4, 5> and you want to add the element 6 to the head (*add_head* method), this method will return the number 5 and add 6 to head. The collection will like that: <6, 1, 2, 3, 4>. The same occurs with *add_tail*, but it'll return the firts element of the Dequeued Queue and add to the tail.
 
 ## How to use it?
 **Import**
