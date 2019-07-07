@@ -30,7 +30,7 @@ This abstract data type is implemented with three methods:
 from AbstractDataTypes import Stack
 ```
 
-**Create a Stack Instance** 
+**Create a Stack Instance**   
 &nbsp; *max_size* specific the how many elements Queue can have. *Stack(max_size=0)* or *Stack()* create a ilimited stack.  
 &nbsp; You can also initialize Stack with values, just passing an **__ iter __** object.
 ``` python
