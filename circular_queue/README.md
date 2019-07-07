@@ -19,7 +19,7 @@
 from AbstractDataTypes import CircularQueue
 ``` 
 
-**Create an instance**
+**Create an instance**  
 &nbsp; *max_size* specific the how many elements CircularQueue can have.  
 &nbsp; You can also initialize CircularQueue with values, just passing an **__ iter __** object.  
 ``` python
