@@ -118,6 +118,12 @@ class DoublyLinkedList:
         for item in reversed(self):
             string += '%s, ' % item
         return string[:-2] + ']'
+
+    def reverse(self):
+        reversed_list = DoublyLinkedList()
+        for item in self:
+            reversed_list.insert(item, 0)
+        return reversed_list
     
     def __len__(self):
         return self.size
@@ -129,7 +135,5 @@ class DoublyLinkedList:
         return DoublyLinkedListIterator(self._beginning)
 
     def __reversed__(self):
-        reversed_list = DoublyLinkedList()
-        for item in self:
-            reversed_list.insert(item, 0)
-        return reversed_list
+        reversed_list = self.reverse()
+        return iter(reversed_list)
